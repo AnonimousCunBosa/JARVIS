@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIERNES</title>
+</head>
+<body>
+    <header>
+        <h1>Viernes</h1>
+            <p>
+                Una casa inteligente controlada desde el celular que permite encender luces, abrir o cerrar una puerta y visualizar sensores usando Wi-Fi y una ESP32
+            </p>
+
+            <hr>
+           
+                <ul>
+                    <li>Simon Parra</li>
+                    <li>Joan Romero</li>
+                </ul>
+    </header>
+
+    <section id="PROBLEMA" >
+        <div class="contenido-problema">
+            <div class="texto-problema">
+                <h2>¿Cuál es el problema?</h2>
+
+                <hr>
+
+                <p>
+                    Muchas personas dejan luces encendidas, olvidan cerrar
+                    puertas o no tienen una forma sencilla de monitorear
+                    condiciones básicas del hogar. La gestión ineficiente de
+                    estos recursos no solo incrementa el consumo energético,
+                    sino que también afecta la seguridad y el confort.
+                </p>
+                <p>
+                    Los sistemas comerciales actuales suelen ser cerrados,
+                    costosos y difíciles de adaptar a necesidades específicas,
+                    dejando un vacío para soluciones modulares y accesibles.
+                </p>
+            </div>
+
+            <div class="problemas">
+                <div class="tarjeta-problema">
+                    <h3>Consumo Innecesario</h3>
+                        <p>
+                            Luces encendidas en espacios vacíos por descuidos diarios.
+                        </p>
+                </div>
+
+
+                <div class="tarjeta-problema">
+                    <h3>Seguridad Vulnerable</h3>
+                        <p>
+                            Puertas que quedan sin seguro al salir apresuradamente.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucion">
+        <h2>Nuestra Solución</h2>
+            <p class="descripcion">
+                Casa domótica inteligente con ESP32 conectada por Wi-Fi.
+                Un ecosistema modular que te devuelve el control absoluto
+                de tu entorno.
+            </p>
+
+            <div class="modos">
+                <div class="modo">
+                    <h3>Modo Manual</h3>
+                        <p>
+                            Control total desde tu dispositivo móvil. Acciona
+                            actuadores y visualiza sensores en tiempo real
+                            mediante la interfaz web servida por la ESP32.
+                        </p>
+
+                        <div class="control">
+
+                            <div>
+                                <span>LUCES_PRINCIPALES</span>
+
+                                <button>ON / OFF</button>
+                            </div>
+
+                            <div>
+                                <span>PUERTA_ENTRADA</span>
+
+                                <button>ABRIR / CERRAR</button>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="modo">
+                    <h3>Modo Automático</h3>
+                        <p>
+                            Decisiones inteligentes basadas en datos de sensores.
+                            El sistema actúa de manera autónoma para optimizar
+                            recursos y mantener el confort.
+                        </p>
+
+                        <div class="proceso">
+                            <div>
+                                <strong>LDR SENSOR</strong>
+                            </div>
+
+                            <span>→</span>
+
+                            <div>
+                                <strong>ESP32 LÓGICA</strong>
+                            </div>
+
+                            <span>→</span>
+
+                            <div>
+                                <strong>LED ACTUADOR</strong>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="COMPONENTES">
+        <h2>Componentes</h2>
+            <p>
+                Arquitectura de Hadware seleccionada por su fiabilidad, bajo costo y facilidad de integracion. El cerebro del sistema es el microcontrolador ESP32.
+            </p>
+                <li>
+                    <ul class="arquitectura">ESP32 Development Board</ul>
+                    <ul class="arquitectura">Servomotor(Puerta)</ul>
+                    <ul class="arquitectura">LDR(Fotoresistencia)</ul>
+                    <ul class="arquitectura">Sensor de Humedad DHT11</ul>
+                    <ul class="arquitectura">Mdoulos LEd</ul> 
+                    <ul class="arquitectura">Protoboard y jumpers</ul>
+                </li>
+    </section>
+
+    <footer>
+        <p>© 2026 VIERNES - Smart Home Robotics Project</p>
+
+            <p>
+                <a href="#">Documentation</a> | 
+                <a href="#">Source Code</a> | 
+                <a href="#">Team Credits</a> | 
+                <a href="#">Privacy Policy</a>
+            </p>
+    </footer>
+        
+
+
+</body>
+</html>

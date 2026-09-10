@@ -1,0 +1,490 @@
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* body{ */
+    /* background-image: url(imagenes/ChatGPT\ Image\ 1\ sept\ 2026\,\ 10_20_55\ a.m..png); */
+/* } */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 300px;
+    height: 170px;
+    margin-left: 27px;
+}
+.titulo1{
+    font-family: 'Audiowide', cursive;
+    color: white;
+    font-size: 30px;
+    margin-left: -6px;
+    line-height: 1;
+    position: relative;
+    left: -105px;
+}
+.fijar_menu{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px black;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 27, 27);
+    border-bottom: 1px solid #ccc;
+}
+nav img{
+    position: absolute;
+    left: 0;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;  
+    margin: 50px;
+    font-family: 'Audiowide', cursive;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover{
+    color: #3dcff3;
+}
+
+.menu{
+display: flex;
+gap: 30px;
+list-style: none;
+justify-content: center;  
+margin: 50px;
+}
+.principal{
+  gap: 20px;
+  position: relative;
+  min-height: 390px;
+  }
+
+/* La imagen de esta sección se ubica a la derecha sin tocar el HTML. */
+.principal > img{
+    position: absolute;
+    top: 45px;
+    right: 8%;
+    transition: 0.3s;
+}
+.principal > img:hover{
+    transform: scale(1.1);
+}
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.principal p    {
+    /* font-family: 'Audiowide', cursive; */
+    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-left: 0;
+  color: black;
+ 
+}
+img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.letra1{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.principal a{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #3dcff3;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+    transition: 0.3s;
+    box-shadow:2px 2px 5px black;
+    width: 200px;
+}
+.principal a:hover{
+    transform: scale(1.1)
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #3dcff3;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+     transition: 0.3s;
+    box-shadow:2px 2px 5px black;
+    width: 200px;
+}
+.btn:hover{
+    transform:scale(1.1)
+}
+p{
+    color: black;
+}
+.honk-uniquifier {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo_problema{
+    color: #3dcff3;;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+hr {
+    height: 3px;
+    width: 70px;
+    background-color: #3dcff3;;
+    border: none;
+    border-radius: 3px;
+    justify-content: flex-start;
+    margin-left: 4px;
+    margin-right: 5px;
+}
+.margen_principal{
+    margin: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section{
+    margin: 0;
+}
+
+
+
+
+/* APARTADO DE ¿CUAL ES EL PROBLEMA? */
+
+.moradito {
+    background-color: rgb(26, 27, 27);
+    padding-top: 80px;        
+    padding-bottom: 80px;      
+    padding-left: 40px;        
+    padding-right: 40px;
+    box-shadow:  0px -10px 10px 10px rgb(122, 118, 118);
+    z-index: 300;
+    position: relative;
+    
+    }
+.moradito p{
+    color: white;
+}
+
+.contenido-problema{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.texto-problema {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.problemas {
+    display: flex;
+    gap: 20px;
+}
+
+.problemas h3{
+    color: #3dcff3;;
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.tarjeta-problema {
+    background-color: hsl(60, 33%, 99%);
+    padding: 28px;
+    border: 0.5px solid #3dcff3;;
+    border-radius: 12px ; 
+    border-radius: 12px;
+    flex: 1; 
+    transition: 0.3s; 
+}
+
+.tarjeta-problema:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.icono {
+    width: 44px;
+    height: 44px;
+    background-color: #3dcff3;;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 16px;
+}
+
+/* APARTADO DE NUESTRA SOLUCION */
+
+.solucion {
+    z-index: 1;
+    padding-top: 80px;        
+    padding-bottom: 80px;      
+    padding-left: 40px;        
+    padding-right: 40px;
+    background-image: url(imagenes/c57be760-db83-41cc-bf51-8e276896cc95.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(105, 7, 242, 0.62);
+    position: relative;
+    height: 595px;
+    padding-bottom: 0;
+
+
+}
+.solucion_contenido{
+    z-index: 200;
+    position: absolute;
+
+}
+.solucion_efectos{
+    background-color: rgba(19, 18, 18, 0.589);
+    width: 100%;
+    height: 675px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    backdrop-filter: blur(2px);
+
+}
+
+.titulo_solucion {
+    text-align: center;
+    color: #3dcff3;;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    gap: 10px;
+    gap: 20px;
+    z-index: 30;
+}
+.descripcion1{
+    color: black;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-left: 0;
+    text-align: revert;
+    max-width: 550px;
+
+}
+.descripcion_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion {
+    text-align: center;
+    max-width: 550px;
+    margin-bottom: 80px;
+    color: white;
+
+}
+
+.modos {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-right: 40px;
+    margin-left:  10px;
+    
+    
+}
+
+.modo h3 {
+    text-align: left;
+    color: #3dcff3;;
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+    gap: 10px;
+    gap: 20px;
+}
+
+.modo {
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 1px solid #3dcff3;;
+    border-radius: 16px;
+    padding: 28px;
+    flex: 1;
+    right: 50px;
+    transition: 0.3s;
+
+}
+.modo:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.control div {
+    background-color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.control button {
+    background-color: #3dcff3;;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proceso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3dcff3;;
+    padding: 20px 16px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* APARTADO DE COMPONENTES (COMPARTIDO CON PROBLEMAS) */
+.componentes {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.chiquito {
+    flex: -1;
+}
+
+.espacio-componente {
+    margin-top: 60px;
+}
+
+.arquitectura {
+    background-color: #ffffff;
+    border: 1px solid #3dcff3;;
+    border-radius: 5px;
+    padding: 15px 200px;
+    text-align: left;
+    padding-left: 16px;
+    transition: 0.3s;
+    
+}
+.arquitectura:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.componentes img {
+    width: 768px;
+    height: 514.5px;
+    border-radius: 10px; 
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #ffffff;
+}
+
+footer a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+p {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* strong {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+} */
