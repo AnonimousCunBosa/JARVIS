@@ -246,3 +246,95 @@ transition: 0.3s;
 .btn:hover{
     transform:scale(1.1)
 }
+
+
+/* ====================================================
+   ESTILOS NUEVOS Y CORREGIDOS (TU PARTE)
+   ==================================================== */
+
+.cuadro_tabla {
+  width: 80% !important;
+  max-width: 850px !important;
+  margin: 30px auto !important;
+  padding: 20px !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Formato de la Tabla dentro del cuadro */
+.tabla_materiales {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 0 auto !important;
+}
+
+/* Títulos de la Tabla (Encabezado) */
+.tabla_materiales th {
+  font-family: 'Audiowide', cursive !important;
+  color: #3dcff3 !important;
+  font-size: 20px !important; /* Letra más grande acorde al cuadro */
+  padding: 14px 10px !important;
+  text-align: left !important;
+  border-bottom: 2px solid #3dcff3 !important;
+  background-color: transparent !important;
+}
+
+/* Filas y Textos */
+.tabla_materiales td {
+  font-family: 'Electrolize', sans-serif !important;
+  color: #000000 !important; /* Mismo color del texto del cuadro superior */
+  font-size: 18px !important; /* Letra grande y legible */
+  padding: 12px 10px !important;
+  text-align: left !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+  line-height: 1.4 !important;
+}
+
+/* Proporción para que la primera columna no aplaste la segunda */
+.tabla_materiales th:nth-child(1),
+.tabla_materiales td:nth-child(1) {
+  width: 35% !important;
+  font-weight: bold;
+}
+
+.tabla_materiales th:nth-child(2),
+.tabla_materiales td:nth-child(2) {
+  width: 65% !important;
+}
+
+/* Efecto sutil al pasar el cursor */
+.tabla_materiales tr:hover td {
+  background-color: rgba(61, 207, 243, 0.1) !important;
+}
+
+/* 3. Grilla para las Tarjetas de Componentes */
+.grid_servicios {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  max-width: 1100px;
+}
+
+.tarjeta_servicio {
+  flex: 1;
+  min-width: 220px;
+  background-color: rgba(26, 27, 27, 0.9);
+  border: 2px solid #3dcff3;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta_servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(61, 207, 243, 0.5);
+}
+
+.tarjeta_servicio h3 {
+  font-family: 'Audiowide', cursive;
+  color: #3dcff3;
+  margin-top: 0;
+}
