@@ -1,0 +1,293 @@
+.electrolize-regular {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo{
+    width: 300px;
+    height: 170px;
+    margin-left: -15px;
+    margin-top: -76px;
+}
+.titulo1{
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    margin-left: -6px;
+    line-height: 1;
+    position: relative;
+    left: -105px;
+}
+.fijar_menu{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px black;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 27, 27);
+    border-bottom: 1px solid #ccc;
+}
+nav img{
+    position: absolute;
+    left: 0;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;  
+    margin: 50px;
+    font-family: 'Audiowide', cursive;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover{
+    color: #3dcff3;
+}
+
+.menu{
+display: flex;
+gap: 30px;
+list-style: none;
+justify-content: center;  
+margin: 50px;
+}
+.principal{
+  gap: 20px;
+  position: relative;
+  min-height: 390px;
+  }
+
+body{
+    text-align: center;
+}
+  .primera_seccion{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    min-height: 390px;
+    /* background-color: rgb(26, 27, 27); */
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+    background-image: url("imagenes/Gemini_Generated_Image_jak6g8jak6g8jak6.jpg");
+    background-size: cover;
+    background-position: center;
+
+  }
+h1{
+    font-family: 'Audiowide', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+#titulo_inicial{
+    font-family: 'Audiowide', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+ol{
+    list-style: none;
+}
+
+.container_blur{
+    position: absolute;
+    top: 219px;
+    left: 0;
+    width: 100%;
+    height: 1185.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+/* Capa superior: todo el texto y cuadros */
+.contenido {
+  position: relative;
+  z-index: 2; /* Nivel 2 (por encima del blur) */
+}
+.funciones{
+    border: #3dcff3 2px solid;
+    background-color: white; 
+    border-radius: 10px;
+    gap: 25px   ;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0.3s;
+    
+}
+.funciones:hover{
+    background-color: #3dcff3;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#brillo {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 16px;
+  background: #d0eaf5;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+p,li,h2{
+    font-family: 'Electrolize', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    transition: 0.3s;
+    list-style: none;
+}
+.segunda_seccion{
+    display: flex;
+    perspective: 1000px;
+}
+.informacion1{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.151);
+    border: #3dcff3 double;
+    border-radius: 15px;
+    padding-top: 70px;
+    padding-bottom: 0%;
+    margin-top: 35px;
+    margin: 35px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.418) ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.informacion1:hover{
+    transform: translateZ(20px) scale(1.04);
+    box-shadow: 10px 15px 18px 10px rgba(0, 0, 0, 0.35);
+}
+
+.informacion2{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.151);
+    border: #3dcff3 double;
+    border-radius: 15px;
+    padding-top: 70px;
+    padding-bottom: 0%;
+    margin-top: 35px;
+    margin: 35px;
+    box-shadow: -10px 10px 10px 10px  rgba(0, 0, 0, 0.466);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.informacion2:hover{
+    transform: translateZ(20px) scale(1.04);
+    box-shadow: -10px 15px 18px 10px rgba(0, 0, 0, 0.35);
+}
+.boceto{
+    width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 15px rgba(248, 246, 246, 0.404);
+    transition: 0.3s;
+}
+.tercera_seccion{
+    background-color: rgba(0, 0, 0, 0.151);
+    padding-bottom: 10px;
+    box-shadow:0px -10px 15px 10px rgba(49, 49, 49, 0.452);
+}
+.contenedores{
+ display: flex;
+ flex-direction: column;
+ border: #3dcff3 solid;
+ margin: 50px;
+border-radius: 15px;
+background-color: white;
+font-size: 10px;
+box-shadow:0px 10px 10px 10px rgba(0, 0, 0, 0.466);
+transition: 0.3s;
+}
+.contenedores :hover{
+    transform: scale(1.03)
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #3dcff3;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Audiowide', cursive;
+     transition: 0.3s;
+    box-shadow:2px 2px 5px black;
+    width: 200px;
+}
+.btn:hover{
+    transform:scale(1.1)
+}
+
+
+/* sunda parte joan */
+
+.componentes{
+    background-color: rgba(0, 255, 255, 0.178);
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    background-image: url(imagenes/Gemini_Generated_Image_sjjbqysjjbqysjjb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+
+}
+.componentes{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.parallax{
+    background-color: rgba(19, 18, 18, 0.589);
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    backdrop-filter: blur(2px);
+}
+.componentes h2, li, p {
+    color: rgb(0, 0, 0);
+}
+
+table, td, th{
+    font-family: 'Electrolize', sans-serif;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 0px 7px 5px 0px black;
+}
+p, h3{
+    font-family: 'Electrolize', sans-serif;
+}
