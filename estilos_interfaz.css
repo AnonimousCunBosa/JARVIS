@@ -1,3 +1,18 @@
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.jetbrains-mono {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 body{
     background-color: #0B1220;
     color:white;
@@ -13,20 +28,29 @@ body{
     gap: 20px;
     justify-content: space-around;
     background-color: #080F1B;
-    padding-top: 19px ;
     box-shadow: 0 6px 18px rgba(59, 59, 93, 0.35);
-    height: 150px;
+    height: 89px;
+    font-family: "JetBrains Mono", monospace;
 }
-
+.logos {
+    display:flex;
+}
 .logos img{
-    width: 150px;
-    height: 150px;
+    width: 72px;
+    height: 72px;
+    margin-left: -27px;
 }
 .logos p{
-    margin: 0;
     font-size: 10px;
-    margin-top: -21;
+    margin-top: 30px;
     margin-left: 25px;
+}
+.esp32-badge{
+    color: #02E677;
+    margin-left: -195px;
+}
+.system-status{
+    color: #02E677;
 }
 .esp32-badge,
 .system-status{
@@ -49,6 +73,10 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
+    font-family: "JetBrains Mono", monospace;
+}
+.nombre{
+    color: #02E677;
 }
 
 .modelo-jarvis{
@@ -64,6 +92,8 @@ body{
     align-content: center;
     align-items: center;
     justify-content: center;
+    font-family: "Space Grotesk", sans-serif;
+    color: #67B0DB;
    background:
   radial-gradient(
     ellipse at 50% 52%,
@@ -77,4 +107,62 @@ body{
     #0b1220 60%,
     #060d18 100%
   );
+}
+.texto_inferior{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 201px;
+    margin-left: 79px;
+    margin-right: 79px
+} 
+
+.modulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+.indicadores{
+    display: flex;
+    flex-direction: row;
+    gap: ;
+}
+
+/* Controles de iluminación por espacio */
+.modulo-iluminacion{
+    border: solid;
+    padding: 60px;
+    margin-left: 64px;
+    margin-right: 64px;
+    border-radius: 20px;
+}
+.partes-casa{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid rgba(0, 210, 255, 0.3);
+    border-radius: 12px;
+    background-color: #111a28;
+    color: white;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+.partes-casa:hover,
+.partes-casa:focus-visible{
+    border-color: #00d2ff;
+    outline: none;
+}
+.partes-casa p{
+    flex: 1;
+    margin: 0;
+}
+.partes-casa span{
+    color: #00d2ff;
+    font-weight: 700;
 }
